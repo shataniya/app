@@ -1,0 +1,106 @@
+.player-bangumi{
+    max-width: 100%;
+}
+.wb-info-box{
+    max-width: 100%;
+    display: flex;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.wb-aside{
+    width: 240px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.wb-aside-ft{
+    width: 240px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.wb-img{
+    max-width: 240px;
+}
+.wb-info{
+    width: calc(100% - 240px);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.wb-info-title{
+    width: 240px;
+    font-size: 16px;
+    color: #212121;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wb-info-view{
+    width: 240px;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.wb-info-desc{
+    width: 240px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.wb-info-desc-ft{
+    max-width: 100%;
+    height: 105px;
+    font-size: 12px;
+    color: #212121;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wb-info-tag{
+    max-width: 100%;
+    margin: 0;
+}
+.wb-info-subtitle{
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.wb-info-view-text{
+    color: #212121;
+}
+.wb-info-view-left{
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wb-info-view-right{
+    width: calc(100% - 150px);
+    box-sizing: border-box;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wb-info-view-box{
+    max-width: 100%;
+    font-size: 12px;
+    display: flex;
+}
+.wb-info-label{
+    color: #999;
+}
+.wb-info-value{
+    color: #212121;
+}

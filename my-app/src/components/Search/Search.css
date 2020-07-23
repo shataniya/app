@@ -1,0 +1,161 @@
+.search-item{
+    width: 168px;
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #282c34;
+    transition: box-shadow 0.3s, color 0.3s;
+}
+.search-item:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.search-item-header{
+    max-width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.search-tag{
+    max-width: 940px;
+    margin-top: 50px;
+}
+
+.search-item-body{
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px 16px;
+}
+.search-item-img{
+    /* max-width: 100%; */
+    max-height: 105px;
+}
+.search-item-author{
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.search-item-date{
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+}
+.search-list{
+    width: 940px;
+    margin: 50px 0;
+}
+/* 数据分页 */
+.search-pagination{
+    max-width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-history{
+    margin-top: 50px;
+}
+.search-bangumi{
+    width: 960px;
+    margin: 40px 0 50px;
+    box-sizing: border-box;
+}
+.bangumi-item{
+    width: 960px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    /* transition: box-shadow 0.3s; */
+}
+/* 选中的时候的特效 */
+/* .bangumi-item:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+} */
+.bangumi-avatar{
+    width: 160px;
+    height: 214px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bangumi-img{
+    max-height: 214px;
+}
+.bangumi-info{
+    max-width: calc(100% - 160px);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.bangumi-info-headline{
+    max-width: 100%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.bangumi-info-title{
+    color: #ff80b0;
+}
+.bangumi-info-line{
+    max-width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #99a2aa;
+}
+.info-line-left{
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info-line-right{
+    width: calc(100% - 250px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info-line-left .value{
+    color: #222;
+}
+.info-line-right .value{
+    color: #222;
+}
+.bangumi-info-desc{
+    max-width: 100%;
+    height: 40px;
+    line-height: 20px;
+    -webkit-webkit: line clamp 2;
+    -moz-webkit: line clamp 2;
+    -ms-webkit: line clamp 2;
+    -o-webkit: line clamp 2;
+    /* webkit: line clamp 2; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: #99a2aa;
+    font-size: 12px;
+}
+.bangumi-info-tag{
+    max-width: 100%;
+    margin-top: 40px;
+}
+.bangumi-info-tag-over{
+    max-width: 100%;
+    margin-top: 10px;
+}
+.bangumi-info-button{
+    max-width: 100%;
+    margin-top: 40px;
+}
